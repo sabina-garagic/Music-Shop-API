@@ -1,0 +1,21 @@
+{
+  "name": "shopping-cart-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.specs.js",
+    "test:watch": "mocha **/*.specs.js --watch",
+    "dev": "nodemon -x node server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "expect.js": "^0.3.1",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.11.1"
+  }
+}
